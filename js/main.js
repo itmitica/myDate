@@ -10,12 +10,12 @@ require.config = {
 
 require(
     [
-        "app/myDate"
+        'app/myDate'
     ],
     function (MyDate) {
-        "use strict";
+        'use strict';
         
-        var sdat = new MyDate("startDate"),
-            edat = new MyDate("endDate");
+        var sdat = new MyDate('startDate'),
+            edat = new MyDate('endDate');
     }
 );
