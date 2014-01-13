@@ -2,9 +2,9 @@
 
 define(
     [
-        './prototype/var/months',
-        './prototype/var/yearOffset',
-        './prototype/var/helperFragment',
+        './prototype/vars/months',
+        './prototype/vars/yearOffset',
+        './prototype/vars/helperFragment',
         './prototype/init',
         './prototype/toggle',
         './prototype/addHelperElements',
