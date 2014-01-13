@@ -3,14 +3,14 @@
 require.config = {
     baseUrl: 'js',
     paths: {
-        jquery: '../vendor/jquery/src',
-        lodash: '../vendor/lodash/modern'
+        jquery: 'vendor/jquery/src',
+        lodash: 'vendor/lodash/modern'
     }
 };
 
 require(
     [
-        'app/myDate'
+        'lib/mydate/myDate'
     ],
     function (MyDate) {
         'use strict';

@@ -2,11 +2,11 @@
 
 define(
     [
-        '../app/constructor',
-        '../app/prototype'
+        './constructor',
+        './prototype'
     ],
     function (constructor, prototype) {
-        "use strict";
+        'use strict';
         
         constructor.prototype = prototype;
 

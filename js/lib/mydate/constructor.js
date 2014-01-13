@@ -1,11 +1,11 @@
-/*global define, document, constructor, prototype*/
+/*global define, document*/
 
 define(
     [
 
     ],
     function () {
-        "use strict";
+        'use strict';
         
         function MyDate(id) {
             this.targetElement = document.getElementById(id);
